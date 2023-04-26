@@ -30,11 +30,17 @@ O projeto possui a seguinte estrutura de arquivos:
 
 projeto-lista-de-tarefas/
 |-- index.html
+
 |-- styles.css
+
 |-- scripts.js
+
 |-- README.md
 
 ● index.html: contém a estrutura HTML da aplicação.
+
 ● styles.css: contém os estilos CSS aplicados ao projeto.
+
 ● scripts.js: contém o código JavaScript responsável pela lógica da aplicação.
+
 ● README.md: este arquivo, com informações sobre o projeto e instruções de uso.
