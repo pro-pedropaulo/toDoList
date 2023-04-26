@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Lista de Tarefas by Pedro Paulo
+            <span id="relogio"></span>
+        </h1>
+        <form id="form-adicionar">
+            <div class="input-group"> 
+                <input type="text" id="tarefa" maxlength="20" placeholder="Digite uma nova tarefa">
+                <button type="button" id="adicionar">Adicionar</button>
+            </div> 
+        </form>
+        <ul id="lista-tarefas"></ul>
+        <div id="mensagem-sem-tarefas" class="mensagem-sem-tarefas esconder">Você não tem nenhuma tarefa</div>
+        <footer>
+            <div id="contador-tarefas" class="contador-tarefas esconder">Número de tarefas a fazer: <span>0</span></div>
+        </footer>
+        <div id="modal-editar" class="modal esconder">
+            <input type="text" id="editar-tarefa" maxlength="20">
+            <button type="button" id="salvar">Salvar</button>
+            <button type="button" id="cancelar">Cancelar</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
