@@ -29,6 +29,7 @@ git clone https://github.com/username/projeto-lista-de-tarefas.git
 O projeto possui a seguinte estrutura de arquivos:
 
 projeto-lista-de-tarefas/
+
 |-- index.html
 
 |-- styles.css
